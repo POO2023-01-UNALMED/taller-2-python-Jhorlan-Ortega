@@ -41,7 +41,7 @@ class Auto:
             for asiento in self.asientos:
                 if(type(asiento)==Asiento):
                     if asiento.registro!=self.registro:
-                        return mensaje2
+                        return mensaje1
             return mensaje2
         return mensaje2
 
