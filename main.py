@@ -1,5 +1,5 @@
 class Asiento:
-    pass
+
     def _init_(self,color,precio,registro):
         self.color=color
         self.precio=precio
@@ -10,7 +10,7 @@ class Asiento:
 
 
 class Auto:
-    pass
+
     def _init_(self,modelo,precio,asientos,marca,motor,registro):
         self.modelo=modelo
         self.precio=precio
@@ -37,7 +37,7 @@ class Auto:
         return mensaje2
 
 class Motor:
-    pass
+
     def _init_(self,numeroCilindros,tipo,registro):
         self.numeroCilindros=numeroCilindros
         self.tipo=tipo
