@@ -3,7 +3,7 @@ class Asiento:
     def __init__(self, color, precio, registro):
         self.color=color
         self.precio=precio
-        self.regristro=registro
+        self.registro=registro
         
     def cambiarColor(self,color):
         if color=="rojo":
@@ -40,7 +40,7 @@ class Auto:
         if self.registro==self.motor.registro:
             for asiento in self.asientos:
                 if(type(asiento)==Asiento):
-                    if asiento.registro!=self.registro:
+                    if asiento.registro != self.registro:
                         return mensaje1
             return mensaje2
         return mensaje2
