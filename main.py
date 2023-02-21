@@ -37,12 +37,12 @@ class Auto:
     def verificarIntegridad(self):
         mensaje1="Auto original"
         mensaje2="Las piezas no son originales"
-        if self.registro==self.motor.registro:
+        if (self.registro==self.motor.registro):
             for asiento in self.asientos:
                 if(type(asiento)==Asiento):
                     if asiento.registro != self.registro:
-                        return mensaje1
-            return mensaje2
+                        return mensaje2
+            return mensaje1
         return mensaje2
 
 class Motor:
